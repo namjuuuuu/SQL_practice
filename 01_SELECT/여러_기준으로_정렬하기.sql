@@ -1,0 +1,12 @@
+/* 문제: 여러 기준으로 정렬하기
+플랫폼: programmers
+
+학습 내용
+ - SELECT
+ - FROm
+ - ORDER BY
+*/
+
+SELECT ANIMAL_ID, NAME, DATETIME
+FROM ANIMAL_INS
+ORDER BY NAME ASC, DATETIME DESC;
